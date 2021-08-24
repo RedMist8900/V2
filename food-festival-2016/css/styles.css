@@ -1,8 +1,10 @@
+/* */
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -40,20 +42,49 @@ body {
 .content {
     background-image: url("../img/bg-image.jpg");
     background-repeat: no-repeat;
-    color:red;
-    padding: 10px;
-    
+    color:white;
+    padding: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
+/* svg/logo styling */
 .logocenter {
-    width: 80;
-    height: 20;
+    background: red;
+    padding: 8px;
+    margin: -1%;    
+    align-content: center;
 }
 
-/* Style the footer */
-.footer {
+/* allign website name*/
+.logoText {
+    background: red;
+    text-align: center;
+    margin:1px auto;
+    max-width: max-content;
+}
+
+.logoText h1 {
+    margin:inherit;
+}
+
+.logoText h3 {
+    margin:inherit;
+}
+
+.logoText h1 h3{
+    background: red;
+    padding: 8;
+    margin: 1%;
+    max-width: 20%;
+}
+
+/* Style the festival gæster */
+.gæsterText {
     background-color: #f1f1f1;
-    padding: 10px;
+    padding: 1ex;
+    text-align: center;
+    font-size: 4ex;
 }
 
 
