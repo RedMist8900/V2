@@ -173,17 +173,24 @@ body {
     font-size: 2em;
 }
 
+.programmer h3 {
+    text-align: center;
+}
+
 .bokse {
     display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 
 .lørdagsProgram {
     display: inline-block;
-    margin-right: 25px;
 }
 
-.førsteProgram {
+.program {
     display:flex;
+    margin-bottom: 10px;
+    gap:5px;
 }
 
 .circleGreen {
@@ -198,12 +205,12 @@ body {
     align-items: center;
 }
 
-.explenation {
+.explanation {
     font-size: 12px;
     display:flex;
     justify-content: center;
-    align-items: center;
     align-content: center;
+    flex-direction: column;
 }
 
 #info {
@@ -273,21 +280,39 @@ body {
     color: white;
 }
 
-.kontakt p{
+.kontakt h3{
     text-align: center;
 }
 
 .wrap {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .kontaktArticle {
-    display: inline-block;
-    margin-right: 25px;
+    display: flex;
+    gap:250px;
+}
+
+.kontaktArticle2 {
+    display: flex;
 }
 
 .kontaktText {
     display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+.kontaktText p {
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+
+#kontaktTextB {
+    margin-bottom: 5px;
 }
 
 .orderButton {
